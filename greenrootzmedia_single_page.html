@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenRootz Media | Digital Marketing Agency in Noida</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://media.licdn.com/dms/image/v2/D560BAQEjBWCJZpINOg/company-logo_200_200/company-logo_200_200/0/1703498320057?e=1783555200&v=beta&t=vxo9buebPp89pgilkqOtoyKVJ9LMJDgUVuRn56k7iII">
+
+  <!-- Mobile Browser Theme -->
+  <meta name="theme-color" content="#e30613">
+  <meta name="description"
+    content="GreenRootz Media is a professional digital marketing agency offering SEO, PPC, social media marketing, content marketing, web design, development, affiliate marketing, and growth solutions." />
+  <meta name="keywords"
+    content="GreenRootz Media, digital marketing agency Noida, SEO agency, PPC advertising, social media marketing, website development, affiliate marketing, logo designing, website designing" />
+  <meta name="author" content="GreenRootz Media" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://greenrootzmedia.com/" />
+
+  <meta property="og:title" content="GreenRootz Media | Digital Marketing Agency" />
+  <meta property="og:description"
+    content="Grow your business with SEO, PPC, social media, content, development and performance marketing services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://greenrootzmedia.com/" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DigitalMarketingAgency",
+    "name": "GreenRootz Media",
+    "url": "https://greenrootzmedia.com/",
+    "email": "info@greenrootmedia.in",
+    "telephone": "+91 9999090834",
+    "foundingDate": "2018",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Spring Meadows Business Park, Rasoolpur, Sector 63",
+      "addressLocality": "Noida",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "201301",
+      "addressCountry": "IN"
+    },
+    "sameAs": ["https://www.linkedin.com/company/greenrootzmedia"]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #fff;
+      --text: #111;
+      --muted: #5f6368;
+      --red: #e50914;
+      --red2: #b90710;
+      --soft: #f7f7f8;
+      --line: #e9e9ec;
+      --shadow: 0 20px 55px rgba(0, 0, 0, .08);
+      --radius: 24px;
+      --max: 1180px
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+
+    body {
+      font-family: Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit
+    }
+
+    img {
+      max-width: 100%;
+      display: block
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: auto;
+      padding: 0 22px
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: var(--red);
+      color: #fff;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 800;
+      border: 0;
+      cursor: pointer;
+      transition: .25s
+    }
+
+    .btn:hover {
+      background: var(--red2);
+      transform: translateY(-2px)
+    }
+
+    .btn.alt {
+      background: #111
+    }
+
+    .tag {
+      display: inline-flex;
+      background: #fff0f1;
+      color: var(--red);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 13px
+    }
+
+    .section {
+      padding: 88px 0
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 38px
+    }
+
+    .section-head h2 {
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.1;
+      margin: 12px 0
+    }
+
+    .section-head p {
+      color: var(--muted);
+      font-size: 17px
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, .92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+      z-index: 99
+    }
+
+    .nav {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 950;
+      letter-spacing: -.8px
+    }
+
+    .logo span {
+      color: var(--red)
+    }
+
+    nav {
+      display: flex;
+      gap: 26px;
+      align-items: center
+    }
+
+    nav a {
+      font-weight: 700;
+      font-size: 14px;
+      color: #222
+    }
+
+    .menu {
+      display: none;
+      border: 0;
+      background: #111;
+      color: #fff;
+      border-radius: 12px;
+      padding: 10px 13px;
+      font-weight: 800
+    }
+
+    .hero {
+      padding: 92px 0 70px;
+      background: linear-gradient(180deg, #fff, #fafafa)
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 46px;
+      align-items: center
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 6vw, 74px);
+      line-height: 1;
+      letter-spacing: -2.5px;
+      margin: 18px 0
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 650px
+    }
+
+    .actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 30px
+    }
+
+    .hero-card {
+      background: #111;
+      color: #fff;
+      border-radius: 32px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden
+    }
+
+    .hero-card:before {
+      content: "";
+      position: absolute;
+      right: -70px;
+      top: -70px;
+      width: 210px;
+      height: 210px;
+      background: var(--red);
+      border-radius: 50%;
+      opacity: .9
+    }
+
+    .metric {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 28px
+    }
+
+    .metric div,
+    .mini {
+      background: rgba(255, 255, 255, .08);
+      border: 1px solid rgba(255, 255, 255, .16);
+      border-radius: 20px;
+      padding: 18px
+    }
+
+    .metric strong {
+      font-size: 28px;
+      display: block
+    }
+
+    .mini {
+      position: relative;
+      margin-top: 18px
+    }
+
+    .mini b {
+      color: #fff
+    }
+
+    .mini p {
+      font-size: 14px;
+      color: #ddd;
+      margin-top: 5px
+    }
+
+    .logos {
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line)
+    }
+
+    .logos .wrap {
+      display: flex;
+      gap: 18px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color: #555;
+      font-weight: 800;
+      font-size: 14px
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: 0 14px 35px rgba(0, 0, 0, .04);
+      transition: .25s
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow)
+    }
+
+    .icon {
+      width: 52px;
+      height: 52px;
+      background: #fff0f1;
+      color: var(--red);
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      font-size: 24px;
+      margin-bottom: 18px
+    }
+
+    .card h3 {
+      font-size: 22px;
+      margin-bottom: 10px
+    }
+
+    .card p,
+    .card li {
+      color: var(--muted)
+    }
+
+    .about {
+      background: var(--soft)
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 42px;
+      align-items: center
+    }
+
+    .about-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      padding: 34px;
+      box-shadow: var(--shadow)
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 24px
+    }
+
+    .stats div {
+      background: #111;
+      color: #fff;
+      border-radius: 20px;
+      padding: 22px
+    }
+
+    .stats strong {
+      font-size: 30px;
+      display: block;
+      color: #fff
+    }
+
+    .list {
+      display: grid;
+      gap: 12px;
+      margin-top: 20px
+    }
+
+    .list li {
+      list-style: none;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff
+    }
+
+    .list li:before {
+      content: "✓";
+      color: var(--red);
+      font-weight: 900;
+      margin-right: 10px
+    }
+
+    .services {
+      background: #fff
+    }
+
+    .work {
+      background: #111;
+      color: #fff
+    }
+
+    .work .section-head p {
+      color: #cfcfcf
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px
+    }
+
+    .step {
+      background: #1b1b1b;
+      border: 1px solid #303030;
+      border-radius: 22px;
+      padding: 24px
+    }
+
+    .step span {
+      display: inline-grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: var(--red);
+      font-weight: 900;
+      margin-bottom: 16px
+    }
+
+    .step p {
+      color: #d0d0d0;
+      font-size: 15px
+    }
+
+    .cta {
+      padding: 70px 0
+    }
+
+    .cta-box {
+      background: var(--red);
+      color: #fff;
+      border-radius: 34px;
+      padding: 48px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 25px;
+      align-items: center
+    }
+
+    .cta h2 {
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.1
+    }
+
+    .cta p {
+      opacity: .92;
+      margin-top: 10px
+    }
+
+    .cta .btn {
+      background: #fff;
+      color: #111
+    }
+
+    .contact {
+      background: var(--soft)
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 32px
+    }
+
+    .info-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 16px
+    }
+
+    .form {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      padding: 30px;
+      box-shadow: var(--shadow)
+    }
+
+    label {
+      display: block;
+      font-weight: 800;
+      margin-bottom: 7px
+    }
+
+    .field {
+      margin-bottom: 16px
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 15px 16px;
+      border: 1px solid #dfe1e5;
+      border-radius: 14px;
+      font: inherit;
+      outline: none;
+      background: #fff
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: var(--red);
+      box-shadow: 0 0 0 4px rgba(229, 9, 20, .08)
+    }
+
+    textarea {
+      min-height: 125px;
+      resize: vertical
+    }
+
+    .note {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 12px
+    }
+
+    footer {
+      padding: 34px 0;
+      border-top: 1px solid var(--line)
+    }
+
+    .foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      color: #555
+    }
+
+    .to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: #111;
+      color: #fff;
+      border: 0;
+      display: none;
+      cursor: pointer;
+      font-weight: 900
+    }
+
+    @media(max-width:900px) {
+      nav {
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-bottom: 1px solid var(--line);
+        padding: 20px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start
+      }
+
+      .menu {
+        display: block
+      }
+
+      nav.show {
+        display: flex
+      }
+
+      .hero-grid,
+      .about-grid,
+      .contact-grid,
+      .cta-box {
+        grid-template-columns: 1fr
+      }
+
+      .grid-3,
+      .steps {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .metric,
+      .stats {
+        grid-template-columns: 1fr 1fr
+      }
+    }
+
+    @media(max-width:560px) {
+      .section {
+        padding: 64px 0
+      }
+
+      .hero {
+        padding: 60px 0
+      }
+
+      .grid-3,
+      .steps,
+      .metric,
+      .stats {
+        grid-template-columns: 1fr
+      }
+
+      .cta-box,
+      .hero-card,
+      .about-box,
+      .form {
+        padding: 24px
+      }
+
+      .nav {
+        height: 68px
+      }
+
+      nav {
+        top: 68px
+      }
+
+      .logo {
+        font-size: 21px
+      }
+
+      .actions .btn {
+        width: 100%
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#home" class="logo" aria-label="GreenRootz Media Home">GreenRootz<span>Media</span></a>
+      <button class="menu" id="menuBtn" aria-label="Open Menu">Menu</button>
+      <nav id="navMenu">
+        <a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a
+          href="#contact">Contact</a>
+        <a class="btn" href="#contact">Connect Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="tag">Certified Digital Marketing Company</span>
+          <h1>Digital Agency That Thrives on Your Success</h1>
+          <p>GreenRootz Media helps brands build a strong online presence with performance-focused design, development,
+            SEO, PPC, social media, content and affiliate marketing solutions.</p>
+          <div class="actions">
+            <a class="btn" href="#contact">Get a Free Quote</a>
+            <a class="btn alt" href="https://www.linkedin.com/company/greenrootzmedia" target="_blank"
+              rel="noopener">View LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="GreenRootz Media performance metrics">
+          <span class="tag">Growth Partner Since 2018</span>
+          <h2 style="position:relative;margin-top:18px;font-size:34px;line-height:1.15">Design. Develop. Market. Grow.
+          </h2>
+          <div class="metric">
+            <div><strong>7+</strong><small>Years</small></div>
+            <div><strong>1.5k</strong><small>Clients</small></div>
+            <div><strong>2.5k</strong><small>Projects</small></div>
+          </div>
+          <div class="mini"><b>Services built for real business growth</b>
+            <p>SEO, PPC, social media, web development, content, email and affiliate campaigns.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="logos">
+      <div class="container wrap"><span>SEO</span><span>PPC</span><span>Social Media</span><span>Web
+          Design</span><span>Development</span><span>Affiliate Marketing</span></div>
+    </div>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-box">
+          <span class="tag">About Company</span>
+          <h2 style="font-size:42px;line-height:1.1;margin:16px 0">Grow your business with our digital agency</h2>
+          <p style="color:var(--muted)">Started in 2018 with a small passionate team, GreenRootz Media has grown into a
+            professional agency focused on delivering effective online strategies and measurable client success.</p>
+          <div class="stats">
+            <div><strong>25+</strong>Experts</div>
+            <div><strong>7+</strong>Years</div>
+            <div><strong>1.5k</strong>Clients</div>
+          </div>
+        </div>
+        <div>
+          <div class="section-head" style="margin-bottom:18px"><span class="tag">Why Choose Us</span>
+            <h2>Tailor-made digital solutions for modern brands</h2>
+            <p>Every business is different, so the strategy should be too. We combine creativity, technology and
+              marketing to help your brand stand out.</p>
+          </div>
+          <ul class="list">
+            <li>Performance-focused campaigns for better reach and conversions</li>
+            <li>Clean, responsive websites with user-friendly experiences</li>
+            <li>SEO and optimization to improve online visibility</li>
+            <li>Content and social strategies that build brand trust</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head"><span class="tag">Our Services</span>
+          <h2>We provide superior marketing services</h2>
+          <p>From brand visuals to full website development and digital growth campaigns, everything is built to support
+            business goals.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon">✦</div>
+            <h3>Design</h3>
+            <p>Branding, graphics, user interfaces, landing pages and creative visuals that make your business look
+              premium and trustworthy.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⌘</div>
+            <h3>Development</h3>
+            <p>Fast, secure and scalable websites or applications focused on performance, usability and clean
+              functionality.</p>
+          </article>
+          <article class="card">
+            <div class="icon">↗</div>
+            <h3>Marketing</h3>
+            <p>SEO, PPC, social media, content marketing, email marketing and campaigns designed to reach the right
+              audience.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><span class="tag">Additional Services</span>
+          <h2>We also offer complete web and growth solutions</h2>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Custom Web Development</h3>
+            <p>Modern websites built around your business goals.</p>
+          </div>
+          <div class="card">
+            <h3>Website Design & Redesign</h3>
+            <p>Refresh your online presence with better UI and UX.</p>
+          </div>
+          <div class="card">
+            <h3>E-commerce Development</h3>
+            <p>Conversion-ready online stores for product-based brands.</p>
+          </div>
+          <div class="card">
+            <h3>CMS Website Development</h3>
+            <p>Easy-to-manage websites for teams and business owners.</p>
+          </div>
+          <div class="card">
+            <h3>SEO Optimization</h3>
+            <p>Technical and on-page SEO for stronger search visibility.</p>
+          </div>
+          <div class="card">
+            <h3>Affiliate Marketing</h3>
+            <p>Campaign support for performance and partner-driven growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="process">
+      <div class="container">
+        <div class="section-head"><span class="tag">Our Process</span>
+          <h2>Simple workflow, serious execution</h2>
+          <p>We keep the process clear so brands know what is being built, why it matters and how it supports growth.
+          </p>
+        </div>
+        <div class="steps">
+          <div class="step"><span>1</span>
+            <h3>Discover</h3>
+            <p>Understand your business, target audience and growth goals.</p>
+          </div>
+          <div class="step"><span>2</span>
+            <h3>Strategy</h3>
+            <p>Create a digital roadmap for design, development and marketing.</p>
+          </div>
+          <div class="step"><span>3</span>
+            <h3>Execute</h3>
+            <p>Build campaigns, websites and creatives with professional delivery.</p>
+          </div>
+          <div class="step"><span>4</span>
+            <h3>Optimize</h3>
+            <p>Track, improve and scale what performs best for your business.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-box">
+        <div>
+          <h2>Don’t know what to start with?</h2>
+          <p>Get a solution for all digital marketing services — from website creation to brand growth campaigns.</p>
+        </div>
+        <a class="btn" href="#contact">Connect Now</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-head"><span class="tag">Contact Us</span>
+            <h2>Get a free quote</h2>
+          </div>
+          <div class="info-card">
+            <h3>Head Office</h3>
+            <p>Spring Meadows Business Park, Rasoolpur, Sector 63, Noida, Uttar Pradesh 201301</p>
+          </div>
+          <div class="info-card">
+            <h3>Phone</h3>
+            <p><a href="tel:+919999090834">+91 9999090834</a></p>
+          </div>
+          <div class="info-card">
+            <h3>Email</h3>
+            <p><a href="mailto:info@greenrootmedia.in">info@greenrootmedia.in</a></p>
+          </div>
+        </div>
+        <form class="form" id="contactForm">
+          <div class="field"><label for="name">Name *</label><input id="name" name="name" type="text"
+              placeholder="Enter your full name" required></div>
+          <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email"
+              placeholder="Enter your email" required></div>
+          <div class="field"><label for="phone">Phone Number *</label><input id="phone" name="phone" type="tel"
+              placeholder="Enter your phone number" required></div>
+          <div class="field"><label for="service">Service Needed</label><input id="service" name="service" type="text"
+              placeholder="SEO, Website, Social Media, PPC..."></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message"
+              placeholder="Tell us about your project..."></textarea></div>
+          <button class="btn" type="submit">Send Message</button>
+          <p class="note">No third-party form tool is used. On submit, this opens your email app with a pre-filled
+            message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot">
+      <p>© <span>2025</span> GreenRootz Media. All Rights Reserved.</p>
+      <p><a href="https://www.linkedin.com/company/greenrootzmedia" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </footer>
+  <button class="to-top" id="topBtn" aria-label="Back to top">↑</button>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn'), navMenu = document.getElementById('navMenu'), topBtn = document.getElementById('topBtn');
+    menuBtn.addEventListener('click', () => navMenu.classList.toggle('show'));
+    document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => navMenu.classList.remove('show')));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    window.addEventListener('scroll', () => { topBtn.style.display = window.scrollY > 500 ? 'block' : 'none' });
+    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const service = document.getElementById('service').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('New Website Enquiry - GreenRootz Media');
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService Needed: ${service || 'Not specified'}\n\nMessage:\n${message || 'No message added.'}`);
+      window.location.href = `mailto:info@greenrootmedia.in?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+
+</html>
